@@ -1,6 +1,6 @@
 # BRC_Metagenomics
 # Metagenomic Host-Read Removal & QC Pipeline
-Overview:This pipeline processes raw paired-end metagenomic reads to remove host contamination, trim adapters, filter low-quality reads, and generate quality control reports.
+Overview: This pipeline processes raw paired-end shotgun metagenomic reads to remove host contamination, trim adapters, filter low-quality reads, and generate quality control reports.
 
 Tools used:
 - bowtie2
