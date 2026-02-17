@@ -147,13 +147,13 @@ This generates a single summary report in multiqc_report/ for all samples.
 
 ### Archiving
 
-To share cleaned reads with collaborators:
+To share cleaned reads with collaborators
 ``` bash 
 tar -czvf clean_reads.tar.gz clean_reads/
 ```
 
 ### Notes
-- Keep paired-end reads separate; do not concatenate.
-- Failed reads are automatically discarded by fastp.
-- Slurm array jobs are used to parallelize processing.
-- Record Conda environment for reproducibility:
+- Keep paired-end reads separate; do not concatenate
+- Failed reads are automatically discarded by fastp
+- Slurm array jobs are used to speed things up by parallelizing the processing
+- Record Conda environment
